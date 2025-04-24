@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Baby Shower Invitation</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f9f7f4;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+    .container {
+      text-align: center;
+      background: #fff;
+      padding: 2rem;
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+      max-width: 500px;
+    }
+    .invitation-card img {
+      width: 100%;
+      border-radius: 15px;
+    }
+    .message {
+      margin-top: 1.5rem;
+      font-size: 1.1rem;
+      line-height: 1.6;
+      opacity: 0;
+      animation: fadeIn 2s ease 1s forwards;
+    }
+    .registry-btn {
+      margin-top: 1.5rem;
+      display: inline-block;
+      padding: 10px 20px;
+      background: #7acba5;
+      color: white;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+    .registry-btn:hover {
+      background: #68b491;
+    }
+    @keyframes fadeIn {
+      to {
+        opacity: 1;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="invitation-card">
+      <img src="https://i.imgur.com/dpQQ9Ue.png" alt="Baby Shower Invite" />
+    </div>
+    <div class="message">
+      We’re thrilled to welcome our little one soon! <br />
+      You’re invited to join us in celebrating this special moment.<br /><br />
+      <strong>📅 Date:</strong> 18th May 2025<br />
+      <strong>🕙 Time:</strong> 10:00 AM<br />
+      <strong>📍 Location:</strong> 1409-8 Silver Maple Court, Brampton (Buzz 0153)<br /><br />
+      Your presence is the greatest gift, but if you'd like to bless us further:<br />
+      
+      <a class="registry-btn" href="https://www.amazon.ca/baby-reg/2TOIQ7GVH0JDV" target="_blank">Visit Baby Registry</a>
+    </div>
+  </div>
+</body>
+</html>
